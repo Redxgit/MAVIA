@@ -3,10 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAVIA</title>
+    <title>MAVIA</title>    
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }        
+        h1, h2 {
+            color: #333;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            margin-bottom: 5px;
+        }
+        hr {
+            border: 1px solid #ddd;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: white;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        ul li ul li {
+            background-color: #f9f9f9;
+            margin: 3px 0;
+            padding: 5px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        ul li::before {
+            content: "• ";
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        ul li ul li::before {
+            content: "◦ ";
+            color: #333;
+            font-weight: normal;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>MAVIA</h1>
-    <p>Microcredencial en Asistentes Virtuales e Inteligencia Artificial</p>
+    <header>
+        <h1>MAVIA</h1>
+        <h2>Microcredencial en Asistentes Virtuales e Inteligencia Artificial</h2>
+    </header>
+    <hr>
+    <h2>Profesorado</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/pablomunozmartinez/">Pablo Muñoz Martínez</a></li>
+        <li><a href="https://www.linkedin.com/in/hugoalvarezchaves/">Hugo Álvarez Chaves</a></li>
+        <li><a href="https://www.linkedin.com/in/armando-collado/">Armando Collado Villaverde</a></li>
+        <li><a href="https://www.linkedin.com/in/mario-cobos-maestre/">Mario Cobos Maestre</a></li>
+        <li><a href="https://www.linkedin.com/in/imaseda/">Iván Maseda Zurdo</a></li>
+    </ul>
+
+    <h2>Temario</h2>
+    <ul>
+        <li>Fundamentos de Inteligencia Artificial y modelos de lenguaje
+            <ul>
+                <li>Conceptos básicos de Inteligencia Artificial y Machine Learning</li>
+                <li>Evolución y funcionamiento de los modelos de lenguaje como asistentes virtuales</li>
+                <li>Conceptos clave para usar modelos de lenguaje</li>
+            </ul>
+        </li>
+        <li>Estrategias de interacción con modelos de lenguaje
+            <ul>
+                <li>Uso de plataformas de terceros: ChatGPT, Copilot, DeepSeek</li>
+                <li>Mejorando la interacción: Prompt Engineering</li>
+                <li>Riesgos en el uso de modelos de lenguaje</li>
+            </ul>
+        </li>
+        <li>Personalización de modelos de lenguaje
+            <ul>
+                <li>Diferentes técnicas para personalizar modelos de lenguaje</li>
+                <li>Ajuste del comportamiento a dominios específicos</li>
+            </ul>
+        </li>
+        <li>Instalación y configuración de modelos de lenguaje
+            <ul>
+                <li>Ejecución de modelos en lenguaje en ordenadores propios</li>
+                <li>Extensión de capacidades a dominios específicos</li>
+                <li>Limitación de las respuestas a la información proporcionada</li>
+                <li>Creación de asistentes y agentes</li>
+                <li>Integración con modelos de terceros</li>
+            </ul>
+        </li>
+        <li>Consideraciones éticas, legales y futuras
+            <ul>
+                <li>Privacidad: modelos abiertos y privativos</li>
+                <li>Ética en el uso de modelos de lenguaje y normativa europea</li>
+                <li>Perspectivas futuras de los modelos de lenguaje y la Inteligencia Artificial</li>
+            </ul>
+        </li>
+        <li>Práctica final</li>
+    </ul>
 </body>
 </html>
